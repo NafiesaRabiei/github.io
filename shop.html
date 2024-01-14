@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Shop</title>
+</head>
+
+<body> 
+
+  <div class="header">
+    <img src="logo.png" alt="logo">
+  </div>
+
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn" onclick="myFunction()">Shop
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content" id="myDropdown">
+        <a href="#live-animals" id="live-animals-link">Live Animals</a>
+        <a href="#supplies" id="supplies-link">Supplies</a>
+        <a href="#feeder" id="feeder-link">Feeder</a>
+      </div>
+    </div>
+    <a href="Gallery.html">Gallery</a>
+    <a href="CareGuides.html">Care Guides</a>
+    <a href="AboutUs.html">About Us</a>
+    <a href="ContactUs.html">Contact Us</a>
+    <a href="Faqs.html">FAQs</a>
+  </div>
+
+ <div class="jumbotron text-center">
+
+<!-- Container (Shop Section) -->
+<div class="container-fluid text-center bg-grey">
+  <div class="row text-center">
+    <div class="col-sm-4">
+      <div class="shop-image">
+   <a href="#live-animals" onclick="showContent('live-animals')">
+        <img src="Live-animals.jpg" alt="Paris" width="400" height="300"></a>
+        <p><strong>Live Animals</strong></p>
+        <p>Our exotic animal collection</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+   <div class="shop-image">
+    <a href="#feeder" onclick="showContent('feeder')">
+        <img src="Feeder.jpg" alt="New York" width="400" height="300">
+    </a>
+        <p><strong>Feeder</strong></p>
+        <p>Maintaining up a healthy & balanced diet</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="shop-image">
+  <a href="#supplies" onclick="showContent('supplies')">
+        <img src="Supplies.jpg" alt="San Francisco" width="400" height="300"></a>
+        <p><strong>Supplies & Accessories</strong></p>
+        <p>Provide a comfortable and enriched environment.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="live-animals" class="content-section">
+    <h2>Live Animals</h2>
+    <div class="animal-item">
+      <img src="AlbinoIguana.jpg" alt="Animal 1" width="400" height="300">
+      <ul>
+	<br>
+	<li>RM1200</li>
+	<li>Captive bred</li>
+	<li>Unsex</li>
+	<li>Stable & healthy</li>
+	<li>Feeding on Vege, Pallet and Fruits</li>
+	</br>
+       </ul>	
+</div>
+
+    <div class="animal-item">
+      <img src="snowIguana.jpg" alt="Animal 2" width="400" height="300">
+      <ol>
+	<br>
+	<li>RM1400</li>
+	<li>4 months old</li>
+	<li>Unsex</li>
+	<li>Feeding on greens, fruits & pallet</li>
+	</br>
+       </ol>
+</div>
+
+    <div class="animal-item">
+      <img src="AfricanGecko.jpg" alt="Animal 3" width="400" height="300">
+      <ol>
+	<br>
+	<li>RM200</li>
+	<li>Farm bred</li>
+	<li>Male</li>
+	<li>Stable & healthy</li>
+	<li>Feeding on mealworms, dubia and cricket</li>
+	</br>
+       </ol>   
+</div>
+
+    <div class="animal-item">
+      <img src="LeopardGecko.jpg" alt="Animal 4" width="400" height="300">
+      <ol>
+	<br>
+	<li>RM250</li>
+	<li>5 months old</li>
+	<li>Feeding on insects (dubia, crickets & superworms)</li>
+	</br>
+       </ol>
+</div>
+
+ 
+    <div class="animal-item">
+      <img src="BanditGecko.jpg" alt="Animal 5" width="400" height="300">
+      <ol>
+	<br>
+	<li>RM200</li>
+	<li>4 months old</li>
+	<li>Feeding on insects (dubia, crickets & superworms)</li>
+	</br>
+       </ol>
+</div>
+
+    <div class="animal-item">
+      <img src="BallPython.jpg" alt="Animal 6" width="400" height="300">
+      <ol>
+	<br>
+	<li>RM1500</li>
+	<li>Baby unsex</li>
+	<li>Feeding on live & FT mice</li>
+	</br>
+       </ol>
+</div>
+
+    <div class="animal-item">
+      <img src="HetPied.jpg" alt="Animal 7" width="400" height="300">
+      <ol>
+	<br>
+	<li>RM1988</li>
+	<li>Female</li>
+	<li>Feeding on baby mice</li>
+	</br>
+       </ol>
+</div>
+
+  
+    <div class="animal-item">
+      <img src="PastelGravel.jpg" alt="Animal 8" width="400" height="300">
+      <ol>
+	<br>
+	<li>RM1088</li>
+	<li>Female</li>
+	<li>Baby</li>
+	<li>Pastel + Gravel or Yellowbelly</li>
+	</br>
+       </ol>
+</div>
+
+
+    <div class="animal-item">
+      <img src="Sulawesi.jpg" alt="Animal 9" width="400" height="300">
+      <ol>
+	<br>
+	<li>RM750</li>
+	<li>Field collected</li>
+	<li>1.5 years old</li>
+	<li>Feeding on live about mice</li>
+	<li>Healthy & stable</li>
+	</br>
+       </ol>
+</div>
+
+
+    <div class="animal-item">
+      <img src="KingRatSnake.jpg" alt="Animal 9" width="400" height="300">      <ol>
+	<br>
+	<li>RM1200</li>
+	<li>Female</li>
+	<li>6 months old</li>
+	<li>Feeding on live about mice</li>
+	</br>
+       </ol>
+</div>
+
+
+<div id="feeder" class="content-section">
+    <h2>Feeder</h2>
+    <div class="animal-item">
+      <img src="superworms.jpg" alt="Feeder 1" width="400" height="300">
+	<p>Superworms</p>
+    </div>
+<div class="animal-item">
+      <img src="Dubia.jpg" alt="Feeder 2" width="400" height="300">
+	<p>Dubia</p>
+    </div>
+	<div class="animal-item">
+      <img src="mealworms.jpg" alt="Feeder 3" width="400" height="300">
+	<p>Mealworms</p>
+     </div>
+  </div>
+  
+
+<div id="supplies" class="content-section">
+    <h2>Supplies & Accessories</h2>
+     <img src="TikiWaterDish.jpg" alt="Feeder 3" width="400" height="300">
+    <!-- Content for Supplies -->
+</div>
+     
+	 <div class="shop-images" > <!-- Set a larger width for Shopee -->
+    <a href="https://shopee.com.my/exoticsbyarp" target="_blank" rel="noopener noreferrer">
+      <img src="shopee.jpg" alt="Shopee" width="300" height="300">
+    </a>
+    <div class="desc">Shopee</div>
+  </div> 
+  </div>
+
+</div>
+
+ 
+
+<!-- Remaining content -->
+
+    <script>
+
+    /* When the user clicks on the button, 
+  toggle between hiding and showing the dropdown content */
+  function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+
+  // Close the dropdown if the user clicks outside of it
+  window.onclick = function(e) {
+    if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+    }
+  }
+  
+            // Check the hash and show corresponding content
+            if (hash === "#live-animals" || hash === "") {
+                showContent("live-animals");
+            } else if (hash === "#feeder") {
+                showContent("feeder");
+            } else if (hash === "#supplies") {
+                showContent("supplies");
+            }
+        });
+
+        // JavaScript to handle clicking on Live Animals link in the dropdown
+        document.getElementById("live-animals-link").addEventListener("click", function () {
+            window.location.hash = "#live-animals";
+            showContent("live-animals");
+        });
+
+        // JavaScript to handle clicking on Feeder link in the dropdown
+        document.getElementById("feeder-link").addEventListener("click", function () {
+            window.location.hash = "#feeder";
+            showContent("feeder");
+        });
+    </script>
+
+<div class="footer">
+  <div class="footer-col">
+    <img src="logo.png" alt="logo">
+  </div>
+
+  <div class="footer-col">
+    <h3>Quick Links</h3>
+    <ul>
+    <li><a href="Homepage.html">Home</a></li>
+    <li><a href="AboutUs.html">About Us</a></li>
+    <li><a href="Shop.html">Shop</a></li>
+    <li><a href="Faqs.html">FAQs</a></li>
+  </ul>
+  </div>
+
+  <div class="footer-col">
+    <h3>Contact Us</h3>
+    <ul>
+      <li><a href="#">Address</a></li>
+        <li><a href="#">Phone</a></li>
+          <li><a href="#">Email</a></li>
+  </ul>
+  </div>
+
+  <div class="footer-col">
+    <h3>Follow Us</h3>
+<div class="social-links">
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+        <p>&copy; 2024 ExoSopTic. CSF3133.</p>
+</div>
+</div>
+  </div>
+
+</div>
+</div>
+</div>
+
+
+   </body>
+</html>

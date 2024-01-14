@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>FAQs</title>
+</head>
+
+<body>
+  <div class="header">
+    <img src="logo.png" alt="logo">
+  </div>
+
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn" onclick="myFunction()">Shop
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content" id="myDropdown">
+        <a href="shop.html#live-animals">Live Animals</a>
+        <a href="shop.html#supplies">Supplies</a>
+        <a href="shop.html#feeder">Feeder</a>
+      </div>
+    </div>
+    <a href="Gallery.html">Gallery</a>
+    <a href="CareGuides.html">Care Guides</a>
+    <a href="AboutUs.html">About Us</a>
+    <a href="ContactUs.html">Contact Us</a>
+    <a href="Faqs.html">FAQs</a>
+  </div>
+
+<h2>Frequently Asked Questions</h2>
+
+<button class="accordion"><b>What does your exotic website offer?</b></button>
+<div class="panel">
+  <p>Our website is dedicated to provide resources and information on rare and exotic animals from across the globe.</p>
+</div>
+
+<button class="accordion"><b>Are the exotic species featured on your website endangered?</b></button>
+<div class="panel">
+  <p>We do not support or condone actions that threaten endangered animals or their habitats, even though certain species may be extremely rare.</p>
+</div>
+
+<button class="accordion"><b>Is it legal to own an exotic animal?</b></button>
+<div class="panel">
+  <p>Yes, we only sell exotic animal which only be approved by PERHILITAN.</p>
+</div>
+
+<button class="accordion"><b>What kind of payment method do you support?</b></button>
+<div class="panel">
+  <p>Due to respective rules & regulation, you can only purchase pet food and accessories with our online payment gateway.</p>
+  <p>For live exotic animals, you are advised to contact us or visit our nearest outlet to purchase with cash, debit/credit card or direct bank transfer</p>
+</div>
+
+<button class="accordion"><b>Can I purchase exotic or animals through your website?</b></button>
+<div class="panel">
+  <p>No, our website does not facilitate the buying or selling of exotic animals, or related products. We promote responsible and legal interactions with exotic species, respecting conservation laws and ethical standards.</p>
+</div>
+
+<button class="accordion"><b>Return & Refund Policy</b></button>
+<div class="panel">
+  <p>All pet purchase will be entitled for 1 month warranty. Should the pet encounter any health issue, customer is advised to return the pet to us within the warranty period. Inspection will be carried out and refund in store credit or replacement will be advised accordingly by our staff. For replacement, customer is eligible to replace with the similar value product or higher.</p>
+  <p>Full refund in cash form will be given if encountering any pet lost during transit period by our shipper.</p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+<div class="footer">
+  <div class="footer-col">
+    <img src="logo.png" alt="logo">
+  </div>
+
+  <div class="footer-col">
+    <h3>Quick Links</h3>
+    <ul>
+    <li><a href="Homepage.html">Home</a></li>
+    <li><a href="AboutUs.html">About Us</a></li>
+    <li><a href="Shop.html">Shop</a></li>
+    <li><a href="Faqs.html">FAQs</a></li>
+  </ul>
+  </div>
+
+  <div class="footer-col">
+    <h3>Contact Us</h3>
+    <ul>
+      <li><a href="#">Address</a></li>
+        <li><a href="#">Phone</a></li>
+          <li><a href="#">Email</a></li>
+  </ul>
+  </div>
+
+  <div class="footer-col">
+    <h3>Follow Us</h3>
+<div class="social-links">
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+
+        <p>&copy; 2024 ExoSopTic. CSF3133.</p>
+</div>
+</div>
+  </div>
+
+</div>
+</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Exosoptic</title>
+<link rel="stylesheet" href="style2.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale="1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div class="header">
+    <img src="logo.png" alt="logo">
+  </div>
+
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn" onclick="myFunction()">Shop
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content" id="myDropdown">
+        <a href="shop.html#live-animals">Live Animals</a>
+        <a href="shop.html#supplies">Supplies</a>
+        <a href="shop.html#feeder">Feeder</a>
+      </div>
+    </div>
+    <a href="Gallery.html">Gallery</a>
+    <a href="CareGuides.html">Care Guides</a>
+    <a href="AboutUs.html">About Us</a>
+    <a href="ContactUs.html">Contact Us</a>
+    <a href="Faqs.html">FAQs</a>
+  </div>
+
+ <div class="jumbotron text-center">
+  <h1>Caring for Exotic Animals</h1>
+  <p>Explore the fundamentals of responsibly owning exotic pets with our simple to comprehend and educational care guides!</p>
+ </div>
+
+ <div class="container">
+  <div class="row">
+   <div class="col-sm-6">
+	<h3>Research and Understand the Species:</h3>
+	<p>Begin by extensively researching the exotic animal species you intend to maintain. Understand their native environment, behaviour, food, and other distinguishing features.</p>
+   </div>
+
+   <div class="col-sm-6">
+	<h3>Create a Suitable Habitat:</h3>
+	<p>Construct an enclosure that resembles the exotic animal's natural surroundings. Consider temperature, humidity, substrate, hiding locations, and enough illumination.</p>
+   </div>
+
+   <div class="col-sm-6">
+	<h3>Provide a Balanced food:</h3>
+	<p>Tailor the food to the exotic pet's nutritional demands. Consult a veterinarian or an expert to ensure that you're providing a well-balanced and species-appropriate food.</p>
+   </div>
+
+   <div class="col-sm-6">
+	<h3>Create a Routine:</h3>
+	<p>Create a regular feeding, cleaning, and interaction regimen for your exotic pet. Consistency is essential for their well-being and aids in their adjustment to their new surroundings.</p>
+  </div>
+
+   <div class="col-sm-6">
+	<h3>Monitor Health Regularly:</h3>
+	<p>Maintain vigilance on your pet's health. Look for symptoms of disease, changes in behaviour, or physical anomalies. Arrange frequent veterinarian visits.</p>
+  </div>
+
+   <div class="col-sm-6">
+	<h3>Socialize Gradually:</h3>
+	<p> Socialization should be introduced gradually, especially if the exotic pet is inherently shy or territorial. Allow them to adjust to your presence by being patient.</p>
+  </div>
+
+   <div class="col-sm-6">
+	<h3>Implement Enrichment Activities:</h3>
+	<p>Use enrichment activities to engage your exotic pet's brains and prevent boredom. Puzzle feeders, climbing structures, and toys are examples of this.</p>
+   </div>
+
+   <div class="col-sm-6">
+	<h3>Grooming and Hygiene:</h3>
+	<p>Take care of grooming requirements such as bathing, nail trimming, and dental care. It is critical for their general health that they maintain appropriate cleanliness.</p>
+   </div>
+
+   <div class="col-sm-6">
+	<h3>Keep Up to Date on Legal Requirements:</h3>
+	<p>Be informed of local rules and restrictions regarding exotic pet ownership. Obtain all relevant permissions and verify that all legal criteria are met.</p>
+   </div>
+
+   <div class="col-sm-6">
+	<h3>Emergency Preparedness:</h3>
+	<p>Have a plan for emergencies. Know the contact information of an exotic animal veterinarian, and have a first aid kit on hand.</p>
+   </div>
+ </div>
+</div>
+
+<div class="footer">
+  <div class="footer-col">
+    <img src="logo.png" alt="logo">
+  </div>
+
+  <div class="footer-col">
+    <h3>Quick Links</h3>
+    <ul>
+    <li><a href="Homepage.html">Home</a></li>
+    <li><a href="AboutUs.html">About Us</a></li>
+    <li><a href="Shop.html">Shop</a></li>
+    <li><a href="Faqs.html">FAQs</a></li>
+  </ul>
+  </div>
+
+  <div class="footer-col">
+    <h3>Contact Us</h3>
+    <ul>
+      <li><a href="#">Address</a></li>
+        <li><a href="#">Phone</a></li>
+          <li><a href="#">Email</a></li>
+  </ul>
+  </div>
+
+  <div class="footer-col">
+    <h3>Follow Us</h3>
+<div class="social-links">
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+        <p>&copy; 2024 ExoSopTic. CSF3133.</p>
+</div>
+</div>
+  </div>
+
+</div>
+</div>
+</div>
+
+<script>
+    /* When the user clicks on the button, 
+  toggle between hiding and showing the dropdown content */
+  function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  
+  // Close the dropdown if the user clicks outside of it
+  window.onclick = function(e) {
+    if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+    }
+  }
+  
+  var fullImgBox = document.getElementById("fullImgBox");
+  var fullImg = document.getElementById("fullImg");
+  
+  function openFullImg(pic){
+      fullImgBox.style.display = "flex";
+      fullImg.src = pic;
+  }
+
+  function closeFullImg(){
+    fullImgBox.style.display = "none";
+  }
+  </script>
+
+</body>
+</html>
